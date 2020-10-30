@@ -9,8 +9,8 @@ import {
 @Component({
   selector: "app-app-item",
   templateUrl: "./app-item.component.html",
-  styleUrls: ["./app-item.component.css"],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ["./app-item.component.css"]
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppItemComponent implements OnInit {
   @Input() src: any;
